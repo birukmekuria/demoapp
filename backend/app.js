@@ -12,8 +12,8 @@ const app = express();
 const dbconfig = {
   connectionLimit: 10,
   host: "51.20.250.139",
-  user: "buruk",
-  password: "password",
+  user: "root",
+  password: "root",
   database: "demoapp",
 };
 
