@@ -36,7 +36,6 @@ app.use(express.json());
 // Allow cross-origin requests for all methods
 app.use(cors());
 
-
 // Create a simple get request handler to send a response back to the client
 app.get("/", (req, res) => {
   res.send("Hello World!");
@@ -108,6 +107,6 @@ app.post("/login", (req, res) => {
 // Set up the port to listen on
 const port = 4000;
 // Set up the listener
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
   console.log(`Server is running on port ${port}`);
 });
