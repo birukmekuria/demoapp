@@ -11,7 +11,7 @@ const app = express();
 // Define the connection parameters for the database
 const dbconfig = {
   connectionLimit: 10,
-  host: "51.20.250.139",
+  host: "127.0.0.1",
   user: "root",
   password: "root",
   database: "demoapp",
